@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gainsboro;
+}
+body nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+body nav img {
+  width: 100%;
+  max-width: 70px;
+  margin: 10px;
+}
+body nav ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 32px;
+  height: 100%;
+}
+body nav ul a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding: 5px;
+}
+body nav .nav_social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+}
+body nav .nav_social button {
+  height: 50%;
+  width: 45px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 26px;
+  border-radius: 50%;
+  background-color: rgb(142, 90, 161);
+}
+body .gallery {
+  margin: 10px;
+  justify-content: center;
+}
+body .gallery ul {
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+  padding: auto;
+}
+body .gallery ul li {
+  display: inline-block;
+  width: 31%;
+  padding: 10px;
+}
+body .gallery ul img {
+  width: 100%;
+  max-width: 450px;
+  min-width: 300px;
+}/*# sourceMappingURL=style.css.map */
