@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: bisque;
+  margin: 10px;
+  text-align: center;
+}
+body h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 20px;
+}
+body .gameboard {
+  display: flex;
+  justify-content: center;
+}
+body .gameboard .layer {
+  text-align: center;
+}
+body .gameboard .layer .btn button {
+  margin: 5px;
+  width: 120px;
+  height: 120px;
+  background-color: white;
+  font-size: 48px;
+}
+body p {
+  font-size: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}/*# sourceMappingURL=index.css.map */
