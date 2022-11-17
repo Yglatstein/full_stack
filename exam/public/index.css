@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: gainsboro;
+}
+body .gallery {
+  margin: 10px;
+  justify-content: center;
+}
+body .gallery ul {
+  display: inline-block;
+  list-style: none;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+body .gallery ul li {
+  display: inline-block;
+  width: 30%;
+  padding: 10px;
+}
+body .gallery ul img {
+  cursor: pointer;
+  width: 100%;
+  max-width: 450px;
+  min-width: 280px;
+}
+body .gallery ul img:hover {
+  opacity: 0.5;
+}
+body .add_picture {
+  margin-top: 20px;
+}
+body .add_picture h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 32px;
+  color: rgb(142, 90, 161);
+  margin: 5px;
+}
+body .add_picture .pic_details {
+  margin-left: 10px;
+}
+body .add_picture .pic_details label {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 24px;
+}
+body .add_picture .pic_details input {
+  width: 80%;
+  height: 30px;
+}
+body .add_picture .form_btns {
+  margin: 15px;
+}
+body .add_picture .form_btns input {
+  height: 40px;
+  width: 160px;
+}
+body .add_picture .form_btns button {
+  height: 40px;
+  width: 160px;
+}
+
+@media screen and (max-width: 1012px) {
+  body .gallery ul li {
+    width: 45%;
+  }
+  body .gallery ul li img {
+    max-width: 400px;
+    min-width: 150px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .gallery ul p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 530px) {
+  body .gallery ul li {
+    width: 90%;
+  }
+  body .gallery ul li img {
+    max-width: 400px;
+    min-width: 150px;
+  }
+}/*# sourceMappingURL=index.css.map */
