@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body h1 {
+  text-align: center;
+  width: 400px;
+  height: 60px;
+  background-color: rgb(210, 231, 224);
+  border: solid rgb(134, 152, 146);
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+}
+body form {
+  text-align: center;
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+}
+body .box {
+  text-align: center;
+  width: 400px;
+  height: 100px;
+  background-color: rgb(210, 231, 224);
+  border: solid rgb(134, 152, 146);
+  margin: 20px;
+}/*# sourceMappingURL=index.css.map */
