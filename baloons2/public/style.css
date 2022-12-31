@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/kids-playground-sunny-weather-children-area_107791-11059.jpg?w=1380&t=st=1672471546~exp=1672472146~hmac=5dff9274e9cea8e57d873761660796629ae44c803f5829310838146ce7cf50e7");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p {
+  position: relative;
+  font-size: 20px;
+}
+
+.box {
+  position: absolute;
+  -webkit-animation: animateDiv 3s 2;
+          animation: animateDiv 3s 2;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animateDiv {
+  0% {
+    bottom: 0px;
+    top: 100vh;
+  }
+  100% {
+    bottom: 100vh;
+    top: 0px;
+  }
+}
+
+@keyframes animateDiv {
+  0% {
+    bottom: 0px;
+    top: 100vh;
+  }
+  100% {
+    bottom: 100vh;
+    top: 0px;
+  }
+}/*# sourceMappingURL=style.css.map */
